@@ -1,7 +1,7 @@
 # Description
 
 There is a Node.js server application that connects to a PostgreSQL database and takes 3 environment variables, `DATABASE_URL`, `PORT` and `NODE_ENV`.
-The application has to be accessible via a public URL and when /health is hit we should get a response as follows:
+The application has to be accessible via a public URL and when `/health` is hit we should get a response as follows:
 
 ```json
 {
